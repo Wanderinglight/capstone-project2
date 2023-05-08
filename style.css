@@ -1,0 +1,288 @@
+@font-face {
+  font-family: amsterdanone;
+  src: url(./AmsterdamOne-eZ12l.ttf);
+}
+
+html {
+  font-size: 100%;
+}
+
+a {
+  color: #EEEEEE;
+  text-decoration: none;
+  transition: 400ms ease-in-out;
+}
+
+a:hover {
+  color: #FD7014;
+}
+
+h1,
+h2 {
+  font-family: amsterdanone;
+}
+
+html {
+  background-color: #222831;
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1200px;
+  color: #EEEEEE;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 10px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 64px;
+  margin: 0 0 20px 0;
+  line-height: 2.6;
+}
+
+h2 {
+  color: #FD7014;
+  font-size: 38px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.orange-accent {
+  color: #FD7014;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+}
+
+.headline {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 500px;
+}
+
+button {
+  border-radius: 40px;
+  border: none;
+  padding: 8px 16px;
+  background-color: #EEEEEE;
+  color: #393E46;
+  font-weight: bold;
+  transition: ease-in 200ms;
+}
+
+button:hover {
+  background-color: #FD7014;
+  color: #EEEEEE;
+}
+
+.get-in-touch-btn {
+  margin-left: 56px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+.service {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service>* {
+  margin: 20px 0;
+}
+
+.service-item {
+  border-bottom: 1px solid #393E46;
+}
+
+.service-title {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.service-title>h3 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.service-number {
+  color: #EEEEEE;
+  margin: 0 20px 0 0;
+  font-size: 28px;
+  opacity: 60%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.skill-website {
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.contact {
+  margin: 40px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.to-top {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 460px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 90px;
+  }
+
+  .get-in-touch-btn {
+    margin-left: 78px;
+  }
+
+  .header {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .profile-image {
+    margin-right: 24px;
+  }
+
+  .tagline {
+    font-size: 24px;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .profile {
+    min-width: 300px;
+    margin-right: 20px;
+  }
+
+  .service {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #393E46;
+
+  }
+
+  .service-headline {
+    flex-shrink: 0;
+    flex-basis: 100%;
+  }
+
+  .service-item {
+    flex-basis: 33%;
+    border: none;
+    margin-top: 0;
+  }
+
+  .skills {
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .skill-image {
+    min-width: 300px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 124px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  .about-me {
+    justify-content: flex-end;
+  }
+
+  .profile-image {
+    margin-left: 40px;
+  }
+
+  .get-in-touch-btn {
+    margin-left: 96px;
+  }
+
+  .about-content {
+    max-width: 600px;
+  }
+
+  .service {
+    height: 560px;
+    align-content: center;
+  }
+
+  .service-headline {
+    margin-bottom: 40px;
+  }
+
+  .skills{
+    height: 480px;
+  }
+
+  .contact{
+    margin-bottom: 40px;
+  }
+}
